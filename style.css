@@ -1,0 +1,85 @@
+body{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: 100%;
+    display: flex;
+    position: fixed;
+    left: 25%;
+    }
+.main{
+    display: flex;
+    position: fixed;
+    left: 25%;
+    top: 35%;
+}
+input{
+    width: 350px;
+    height: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 25px;
+    border: none;
+    border-bottom: 3px black solid;
+    background: none;
+    outline: none;
+}
+.add{
+    width: 100px;
+    height: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.dt{
+    width: 120px;
+    height: 40px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.del{
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 7px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.edit{
+    width: 80px;
+    height: 30px;
+    margin-left: 5px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.li{
+    position: relative;
+    left: 45%;
+    top: 290px;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 25px;
+}
